@@ -24,8 +24,7 @@ export default function Index() {
       <Text>Edit src/app/index.tsx to edit this screen.</Text>
     </View>
   );
-}
-
+};
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -39,7 +38,7 @@ const layoutContent = `import { Stack } from "expo-router";
 
 export default function RootLayout() {
   return <Stack />;
-}
+};
 `;
 
 const rl = readline.createInterface({
